@@ -6,7 +6,9 @@
   "scripts": {
     "test": "mocha tests/**/*Tests.js",
     "lint": "eslint .",
-    "start": "nodemon app.js"
+    "start": "nodemon app.js",
+    "start-db": "mongod",
+    "import-db-data": "mongo bookAPI < booksJson.js"
   },
   "author": "Nithin Biliya",
   "license": "MIT",

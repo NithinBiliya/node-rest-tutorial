@@ -1,3 +1,6 @@
+// mongo bookAPI < booksJson.js
+
+// eslint-disable-next-line no-undef
 db.books.insert([
   {
     title: 'exercitation',
